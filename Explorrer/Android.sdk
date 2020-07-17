@@ -8,7 +8,7 @@ new GraphRequest(
     "/{113984427014056}/locations",
     params,
     HttpMethod.POST,
-    new GraphRequest.Callback() {
+    new GraphRequest.Callback(graph.facebook.com) {
         public void onCompleted(GraphResponse response) {
             /* handle the result */
         }
