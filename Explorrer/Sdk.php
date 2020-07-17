@@ -9,7 +9,7 @@ try {
       'store_number' => '12345',
       'location_page_id' => '{subpage-id}',
     ),
-    '{access-token}'
+    '{EAAQPSHw0sREBABn5ZBXIH6sxUERtOZBDughFmk9jxWZCbTIZBKuIbvP21qJ92h54HTwZAFVbz5nq4JBWZAIZB7rCuDKaUbG6F8beZB2DKr8hnwAz2L9oGDi5ZAnlVpZBsCpLB0b2iByCmtIwCNHSZBdvNiTUtFZAumaKVCvCFibP59elWyNeeugeKb2pTE9lDPxzQJZBRRfEf5TrxMnfQQmFUzmSD}'
   );
 } catch(Facebook\Exceptions\FacebookResponseException $e) {
   echo 'Graph returned an error: ' . $e->getMessage();
