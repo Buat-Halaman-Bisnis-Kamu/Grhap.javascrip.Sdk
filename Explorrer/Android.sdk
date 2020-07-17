@@ -1,11 +1,11 @@
 Bundle params = new Bundle();
-params.putString("main_page_id", "{page-id}");
+params.putString("main_page_id", "{113984427014056}");
 params.putString("store_number", "12345");
 params.putString("location_page_id", "{subpage-id}");
 /* make the API call */
 new GraphRequest(
     AccessToken.getCurrentAccessToken(),
-    "/{page-id}/locations",
+    "/{113984427014056}/locations",
     params,
     HttpMethod.POST,
     new GraphRequest.Callback() {
