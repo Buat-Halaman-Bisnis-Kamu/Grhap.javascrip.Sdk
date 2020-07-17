@@ -3,9 +3,9 @@
 try {
   // Returns a `Facebook\FacebookResponse` object
   $response = $fb->post(
-    '/{page-id}/locations',
+    '/{113984427014056}/locations',
     array (
-      'main_page_id' => '{page-id}',
+      'main_page_id' => '{113984427014056}',
       'store_number' => '12345',
       'location_page_id' => '{subpage-id}',
     ),
