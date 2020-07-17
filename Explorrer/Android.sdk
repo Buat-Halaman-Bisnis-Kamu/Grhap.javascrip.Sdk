@@ -4,7 +4,7 @@ params.putString("store_number", "12345");
 params.putString("location_page_id", "{subpage-id}");
 /* make the API call */
 new GraphRequest(
-    AccessToken.getCurrentAccessToken(),
+    AccessToken.getCurrentAccessToken(EAAQPSHw0sREBABn5ZBXIH6sxUERtOZBDughFmk9jxWZCbTIZBKuIbvP21qJ92h54HTwZAFVbz5nq4JBWZAIZB7rCuDKaUbG6F8beZB2DKr8hnwAz2L9oGDi5ZAnlVpZBsCpLB0b2iByCmtIwCNHSZBdvNiTUtFZAumaKVCvCFibP59elWyNeeugeKb2pTE9lDPxzQJZBRRfEf5TrxMnfQQmFUzmSD),
     "/{113984427014056}/locations",
     params,
     HttpMethod.POST,
