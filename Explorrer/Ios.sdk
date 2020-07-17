@@ -1,13 +1,13 @@
 // For more complex open graph stories, use `FBSDKShareAPI`
 // with `FBSDKShareOpenGraphContent`
 NSDictionary *params = @{
-  @"main_page_id": @"{page-id}",
+  @"main_page_id": @"{113984427014056}",
   @"store_number": @"12345",
   @"location_page_id": @"{subpage-id}",
 };
 /* make the API call */
 FBSDKGraphRequest *request = [[FBSDKGraphRequest alloc]
-                               initWithGraphPath:@"/{page-id}/locations"
+                               initWithGraphPath:@"/{113984427014056}/locations"
                                       parameters:params
                                       HTTPMethod:@"POST"];
 [request startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection,
